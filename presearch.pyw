@@ -44,7 +44,7 @@ def show_entry_fields():
 
 master = Tk()
 
-background_image = PhotoImage(file="C:\\Users\\meganano202\\Desktop\\MEGA\\bot\\tenor.gif")
+background_image = PhotoImage(file="tenor.gif")
 background_label = tk.Label(master, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -88,7 +88,7 @@ tk.Button(master,
           command=oneclick).place(x=100, y=110)
 
 # Creating a photoimage object to use image
-photo = PhotoImage(file=r"C:\\Users\\meganano202\\Desktop\\MEGA\\bot\\YouTube_icon.png")
+photo = PhotoImage(file=r"YouTube_icon.png")
 
 # Resizing image to fit on button
 photoimage = photo.subsample(3, 3)
@@ -100,7 +100,7 @@ photoimage = photo.subsample(3, 3)
 Channel_button = tk.Button(master, image=photo, command=youtube, bg="#050213").place(x=150, y=110)
 
 master.title("Presearch by meganano202")
-master.iconbitmap("C:\\Users\\meganano202\\Desktop\\MEGA\\bot\\G_XURdf8.ico")
+master.iconbitmap("G_XURdf8.ico")
 master.geometry("330x140")
 master.resizable(0, 0)
 
